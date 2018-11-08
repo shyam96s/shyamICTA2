@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script>
+
+function read(){
+var name=document.getElementById("getname").value;
+console.log(name)
+var Rollno=document.getElementById("getRollno").value;
+console.log(Rollno)
+var Admno=document.getElementById("getAdmno").value;
+console.log(Admno)
+var Age=document.getElementById("getAge").value;
+console.log(Age)
+}
+
+</script>
+
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+
+            <h2>ICTA calicut</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit neque ad possimus cupiditate repellendus autem, placeat reprehenderit, voluptas expedita esse laborum quasi iure maxime quis tempora? Accusantium earum modi corrupti.</p>
+        </div>
+        <div class="card bg-primary text-white">
+        <div class="Login"></div><h3>LOGIN</h3>
+<div class="col-sm-6">
+       
+        <br>
+        <br>
+        <div class="row">
+                <div class="col-sm-6"> Name</div>
+                <div class="col-sm-6"> <input type="text"  id="getname" /> </div>
+            </div>
+            <br>
+            <div class="row">
+                    <div class="col-sm-6"> RollNumber</div>
+                    <div class="col-sm-6"> <input type="text" class="form control" id="getRollno" /> </div>
+            
+                    
+                </div>
+            <br>
+                <div class="row">
+                        <div class="col-sm-6"> Admission number</div>
+                        <div class="col-sm-6"> <input type="text" class="form control" id="getAdmno" /> </div>
+                
+                        
+                    </div>
+                    <br>
+
+
+                    <div class="row">
+                            <div class="col-sm-6"> Age</div>
+                            <div class="col-sm-6"> <input type="text" class="form control" id="getAge" /> </div>
+                    </div>
+
+
+
+                    <div class="row">
+                            <div class="col-sm-6"></div><Button class="btn btn-warning"onclick="read()" >LOGIN</Button>
+                        
+                    </div>
+            
+            
+
+</div>
+        
+    
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    background:rebeccapurple
+}
+.Mytr{
+    background:fuchsia
+}
+.Hd{
+    margin-left: 100px;
+}
+.mydiv{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    width:500px;
+    margin left : 50px;
+}
+.login{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    width:500px;
+    margin left : 100px;
+}
+
+}
